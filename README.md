@@ -1,6 +1,6 @@
 # flutter_emay_login
 
-ÒÚÃÀÒ»¼üµÇÂ¼ Flutter ²å¼ş
+äº¿ç¾ä¸€é”®ç™»å½• Flutter æ’ä»¶
 
 ## Getting Started
 
@@ -14,34 +14,34 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 #Andirid 
-##ÅäÖÃ»ìÏı²ßÂÔ(proguard-rules.pro)
-###ctÌìÒíÕËºÅSDK
+##é…ç½®æ··æ·†ç­–ç•¥(proguard-rules.pro)
+###ctå¤©ç¿¼è´¦å·SDK
 -keep class com.cmic.sso.sdk.**{*;}
 -keep class cn.com.chinatelecom.account.**{*;}
-### cmccÖĞ¹úÒÆ¶¯Ò»¼üÃâÃÜµÇÂ¼
+### cmccä¸­å›½ç§»åŠ¨ä¸€é”®å…å¯†ç™»å½•
 -dontwarn com.cmic.sso.sdk.**
 -keep class com.cmic.sso.sdk.**{*;}
-###cu Ğ¡ÎÖ¿Æ¼¼ÃâÃÜµÇÂ¼sdk
+### cu å°æ²ƒç§‘æŠ€å…å¯†ç™»å½•sdk
 -dontwarn com.unicom.xiaowo.login.**
 -keep class com.unicom.xiaowo.login.**{*;}
 -dontwarn com.sdk.**
 -keep class com.sdk.** { *;}
-###cmcc
+### cmcc
 -dontwarn com.cmcc.allnetlogin.**
 -keep class com.cmcc.allnetlogin.client.**{*;}
 -keep class com.cmcc.allnetlogin.model.**{*;}
 -keep class com.cmcc.allnetlogin.http.**{*;}
 -keep class com.cmcc.allnetlogin.utils.**{*;}
 -keep class org.apache.commons.codec1.**{*;}
-###emay
+### emay
 -keep class cn.emay.ql.UniSDK{*;}
 -keep class cn.emay.ql.LoginCallback{*;}
 -keep class cn.emay.ql.UniLoginActivity{*;}
 -keep class cn.emay.ql.utils.**{*;}
 
-##×Ô¶¨ÒåUI,COPY
-activity_oauth.xml  //ÁªÍ¨µÇÂ¼Ò³Ãæ
-ct_account_auth_activity_dynamic.xml    //µçĞÅÆÕÍ¨µÇÂ¼Ò³Ãæ
-ct_account_mini_auth_activity_dynamic.xml   //µçĞÅµ¯´°µÇÂ¼Ò³Ãæ
-Èı¸öÎÄ¼şµ½Ö÷ÏîÄ¿ layout Ä¿Â¼ÏÂ
+## è‡ªå®šä¹‰UI,COPY
+activity_oauth.xml  //è”é€šç™»å½•é¡µé¢
+ct_account_auth_activity_dynamic.xml    //ç”µä¿¡æ™®é€šç™»å½•é¡µé¢
+ct_account_mini_auth_activity_dynamic.xml   //ç”µä¿¡å¼¹çª—ç™»å½•é¡µé¢
+ä¸‰ä¸ªæ–‡ä»¶åˆ°ä¸»é¡¹ç›® layout ç›®å½•ä¸‹
 
