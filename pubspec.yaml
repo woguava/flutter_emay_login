@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  json_serializable: ^3.0.0
+  json_serializable: ^3.5.1
 
 ###
 ###flutter packages pub run build_runner build
